@@ -1,0 +1,146 @@
+/* Header  */
+header {
+  background-image: linear-gradient(rgba(204, 49, 49, 0.603), rgba(209, 51, 51, 0.7)), url(../images/main.jpg);
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+
+  h1 {
+    font-size: 55px;
+  }
+}
+
+/* Nav */
+.side-nav {
+  color: white;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 0%;
+  background-color: rgb(29, 27, 31);
+ 
+
+  ul {
+    list-style: none;
+    margin-top: 20%;
+    margin-right: 30%;
+    font-size: 20px;
+  }
+
+  li {
+    padding-top: 30%;
+    cursor: pointer;
+  }
+
+
+  ul li a {
+    transition: all 0.5s;
+    text-decoration: none;
+    color: white;
+    padding-top: 10%;
+    font-size: 25px;
+  }
+
+
+}
+
+ul li a:hover {
+  color: brown;
+  cursor: pointer;
+}
+.side-nav .x .close{
+  transition: all 0.3s;
+}
+.side-nav .x .close:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+.nav-toggle {
+  margin-left: 0;
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+}
+
+/* Header and nav media */
+@media(max-width : 920px) {
+  header h1 {
+    font-size: 40px;
+    text-align: center;
+    
+  }
+
+  ul {
+    padding-left: 18%;
+
+  }
+
+  ul li a {
+    font-size: 15px !important;
+  }
+  .duration .time{
+    font-size: 20px !important;
+    padding: 5px !important;
+    margin-top: 2% !important;
+  }
+  
+} 
+
+/* Details */
+.details {
+  margin-top: 10%;
+}
+
+.details .row {
+  width: 50%;
+}
+
+.details h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+.details .inner {
+  color: rgb(43, 42, 42);
+  background-color: #ccc;
+  margin: 0;
+  padding: 3%;
+  display: none;
+}
+ 
+/* Duration */
+.duration{
+  height: fit-content;
+  background-image: linear-gradient(rgba(204, 49, 49, 0.603), rgba(209, 51, 51, 0.7)), url(../images/image.jpg) !important;
+  margin-top: 10%;
+  background-size: cover;
+  padding: 20px 0 70px 0;
+  
+}
+
+.duration .time{
+  text-align: center !important;
+  margin-top: 30%;
+  font-size: 30px;
+  border: 1px solid rgb(235, 228, 228);
+ padding: 35px 20px;
+}
+
+/* Contact */
+.inner .icon{
+width: 40px;
+height: 40px;
+border: 1px solid #ccc;
+cursor: pointer;
+transition: all 0.5s;
+}
+
+.inner .icon:hover{
+  color:rgba(221, 36, 36, 0.808) !important;
+  border-color: rgba(221, 36, 36, 0.808) !important;
+
+} 
